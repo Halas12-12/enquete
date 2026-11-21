@@ -1,0 +1,28 @@
+.shell{width:min(74rem,calc(100% - 2.5rem));margin-inline:auto}
+.skip{position:absolute;top:.5rem;left:.5rem;transform:translateY(-180%);background:white;padding:.45rem;z-index:2}
+.skip:focus{transform:none}
+.site-head{display:flex;align-items:center;justify-content:space-between;gap:.65rem;flex-wrap:wrap;padding-block:.75rem;border-bottom:1px solid var(--line)}
+.site-head img{width:6.75rem;height:auto}
+.site-head ul{list-style:none;display:flex;flex-wrap:wrap;gap:.45rem 1.3rem;margin:0;padding:0;font-size:.875rem}
+.hero{display:grid;gap:1.5rem;padding-block:1.75rem}
+.hero-copy{align-self:center}
+.hero h1{font-size:clamp(2rem,4vw,3.35rem);letter-spacing:-.036em;margin:.35rem 0 .9rem;max-width:20ch}
+.hero p{margin:.55rem 0;max-width:47ch}
+.hero .audience{font-size:.875rem;margin:.95rem 0 .7rem}
+.hero figure{margin:0;align-self:center;background:#f5ebdc;border-left:3px solid var(--orange)}
+.hero figure img{width:100%;height:auto;aspect-ratio:1200 / 848}
+.details{padding-block:1.35rem 1.7rem;border-top:1px solid var(--line)}
+.details h2{font-size:clamp(1.45rem,3vw,2rem);margin:0 0 .8rem}
+details{max-width:48rem;border-bottom:1px solid var(--line)}
+summary{padding:.7rem 0;cursor:pointer;font-weight:700}
+details p{margin:0 0 .8rem;max-width:64ch}
+.site-foot{display:flex;flex-wrap:wrap;justify-content:space-between;gap:.35rem 1.5rem;border-top:1px solid var(--line);padding-block:1.1rem 1.6rem;font-size:.875rem}
+.site-foot a{overflow-wrap:anywhere}
+@media(min-width:52rem){.hero{grid-template-columns:minmax(0,1fr) minmax(0,1.02fr);gap:clamp(1.5rem,4vw,3.6rem);padding-block:2.7rem 2.4rem}}
+@media(max-width:24rem){.shell{width:calc(100% - 1.75rem)}.site-head ul{gap:.3rem .7rem}}
+
+.hero-actions{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1.1rem}
+.criteria{display:inline-flex;align-items:center;min-height:2.75rem;font-size:.875rem}
+.participation{margin:0 0 .9rem;max-width:48rem;padding:.85rem 1rem;border-left:3px solid var(--orange);background:var(--light)}
+.participation h3{margin:0;font-size:1rem}
+.participation p{margin:.2rem 0 0}

@@ -1,0 +1,13 @@
+@font-face{font-family:AFL Sans;src:url(NotoSans-Regular.woff) format("woff");font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:AFL Sans;src:url(NotoSans-Bold.woff) format("woff");font-style:normal;font-weight:700;font-display:swap}
+@font-face{font-family:AFL Serif;src:url(NotoSerif-Regular.woff) format("woff");font-style:normal;font-weight:400;font-display:swap}
+:root{color-scheme:light;--navy:#0b2d5b;--ink:#102942;--paper:#fffbf5;--accent:#a44013;--orange:#f77f00;--line:#d6c7b6;--light:#fff5e8;--serif:"AFL Serif",Georgia,serif;--sans:"AFL Sans",system-ui,sans-serif}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;color:var(--ink);background:var(--paper);font:1rem/1.55 var(--sans)}
+h1,h2{font-family:var(--serif);font-weight:400;line-height:1.11;color:var(--navy)}
+img{display:block;max-width:100%}
+a{color:inherit;text-underline-offset:.19em}
+a:focus-visible,summary:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+.eyebrow{font-size:.875rem;color:var(--accent);font-weight:700}
+.cta{display:inline-flex;align-items:center;justify-content:center;min-height:3rem;background:var(--navy);color:white;border-radius:4px;padding:.65rem 1.1rem;font-weight:700;text-decoration:none}
+.cta:hover{background:var(--accent)}
